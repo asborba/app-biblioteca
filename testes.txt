@@ -1,0 +1,95 @@
+[
+    // INSERIR CLIENTES
+    POST - localhost:8080/clientes
+    {
+        "nome": "Andressa Borba",
+        "telefone": "2147483647"
+    }
+
+    {
+        "nome": "Ana Lúcia",
+        "telefone": "87654329"
+    }
+
+    {
+        "nome": "Bean Dreamland",
+        "telefone": "96664557"
+    }
+
+    {
+        "nome": "Luizy Alves",
+        "telefone": "812799009"
+    }
+
+    {
+        "nome": "Teste do Deletinho",
+        "telefone": "11111111"
+    }
+
+    {
+        "nome": "Teste do Delete",
+        "telefone": "111111111"
+    }
+
+    {
+        "nome": "Teste do Deletaum",
+        "telefone": "111111111"
+    }
+
+
+    // ALTERAR CLIENTE
+    PUT - localhost:8080/clientes/8
+    {
+        "nome": "Teste do Alterar",
+        "telefone": "33333333"
+    }
+
+
+    // DELETAR CLIENTE
+    DELETE - localhost:8080/clientes/10
+
+
+    // BUSCAR CLIENTE POR MATRÍCULA
+    GET - localhost:8080/clientes/5
+
+
+
+
+    // INSERIR LIVROS
+    POST - localhost:8080/livros
+    {
+        "isbn": "2147483647",
+        "titulo": "Capitu",
+        "autor": "Machado de Assis",
+        "editora": "Machadinha",
+        "ano": "1994",
+    }
+
+    {
+        "isbn": "4564123",
+        "titulo": "kovidi Nainetin",
+        "autor": "Zubat",
+        "editora": "Tarantino",
+        "ano": "2020",
+    }
+
+
+    // ALTERAR LIVRO
+    PUT - localhost:8080/livros/1
+    {
+        "isbn": 777888999,
+        "titulo": "Lean Inception",
+        "autor": "Paulo Caroli",
+        "editora": "Cookie Mata",
+        "ano": "1992"
+    }
+
+
+    // DELETAR LIVRO
+    DELETE - localhost:8080/livros/1
+
+
+    // BUSCAR LIVRO POR ID
+    GET - localhost:8080/livros/2
+
+]
